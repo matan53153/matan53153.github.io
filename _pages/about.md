@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: Princeton Undergrad · CS and Bioengineering
+subtitle: SWE @ Databicks | Princeton CS and Bioengineering
 
 profile:
   align: right
   image: profile.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>km4074 (at) princeton.edu</p>
+    <p>matan53153 (at) gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -26,11 +26,6 @@ latest_posts:
 ---
 
 On this site, I show some of the things I've been working on, including my academic and extracurricular activities. In addition, I'm passionate about finding ways to live a more productive, fulfilling, and intentional life.
-
-#### What I'm doing right now
-
-1. 🧬 Building [Overton](https://overton.bio)
-2. 👨‍💻 Incoming software engineering intern at Amazon
 
 #### Fun stuff
 
