@@ -1,0 +1,22 @@
+// Site-local overrides on top of al_folio_core.
+
+.profile {
+  .more-info {
+    // The profile photo is cropped to a circle, but its box is still a square.
+    // The circle only touches the left edge at mid-height, so text below the
+    // photo looks misaligned against the curve even when flush with the box.
+    // Centering follows the circle's visual mass instead.
+    text-align: center;
+
+    // Fits the monospace address on one line at usual desktop widths; it still
+    // wraps in the ~165px column between 576px and ~650px, where centered.
+    font-size: 0.8rem;
+
+    // The theme styles `.address p`, but the layout renders `.more-info` — that
+    // rule is dead, so these stay inline-block and multiple lines would run
+    // together instead of stacking.
+    p {
+      display: block;
+    }
+  }
+}
