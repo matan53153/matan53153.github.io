@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: SWE @ Databicks | Princeton CS and Bioengineering
+subtitle: SWE @ Databricks | Princeton CS and Bioengineering
 
 profile:
   align: right
