@@ -7,7 +7,7 @@ Pushing to `master` triggers the deploy workflow, which builds the site and publ
 ## Updating
 
 - **Blog post:** add `_posts/YYYY-MM-DD-title.md` (copy the existing post as a template)
-- **CV:** edit `_data/cv.yml`
+- **CV:** replace `assets/pdf/cv.pdf` (the navbar CV link points straight at it; path set by `cv_pdf` in `_config.yml`)
 - **"Now" items:** add a file in `_news/`
 - **Publications:** edit `_bibliography/papers.bib`
 - **About page:** edit `_pages/about.md`
