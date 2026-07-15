@@ -4,6 +4,17 @@ Personal site of Keith Matanachai, built on [al-folio](https://github.com/alshed
 
 Pushing to `master` triggers the deploy workflow, which builds the site and publishes it to the `gh-pages` branch.
 
+## Local development
+
+Requires Ruby 3.3.5 (matches CI). Managed by [mise](https://mise.jdx.dev/):
+
+```bash
+brew install mise imagemagick libyaml   # libyaml is required, Ruby's psych ext won't build without it
+mise install                            # reads .tool-versions
+bundle install
+bundle exec jekyll serve --livereload   # http://localhost:4000
+```
+
 ## Updating
 
 - **Blog post:** add `_posts/YYYY-MM-DD-title.md` (copy the existing post as a template)
